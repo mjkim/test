@@ -6,7 +6,7 @@ on:
 jobs:
   echojobs:
     steps:
-      name: echo
-      run: |
-        echo "GH workflow"
+      - name: echo
+        run: |
+          echo "GH workflow"
 
