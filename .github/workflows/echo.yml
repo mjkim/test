@@ -5,6 +5,7 @@ on:
 
 jobs:
   echojobs:
+    runs-on: ubuntu-latest
     steps:
       - name: echo
         run: |
