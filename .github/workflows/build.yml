@@ -1,0 +1,16 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  echojobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo
+        run: |
+          echo "GH workflow"
+
