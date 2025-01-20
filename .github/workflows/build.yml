@@ -9,6 +9,7 @@ on:
 jobs:
   echojobs:
     runs-on: ubuntu-latest
+    environment: test
     steps:
       - name: echo
         run: |
