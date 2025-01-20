@@ -2,6 +2,9 @@ name: Test
 
 on:
   workflow_dispatch:
+    inputs:
+      input:
+        required: true
 
 jobs:
   echojobs:
